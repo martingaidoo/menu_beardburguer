@@ -1,0 +1,130 @@
+body {
+    background-image: url(back-ground-hamburguesas.png);
+    font-family: sans-serif;
+    padding: 20px;
+    display: flex;
+    background-size: cover; /* Ajusta el tamaño de fondo para cubrir todo el viewport */
+    background-repeat: no-repeat; /* Evita la repetición del fondo */
+    background-attachment: fixed; /* Fija el fondo para que no se desplace con el contenido */
+}
+/* Personaliza el fondo para dispositivos móviles */
+@media (max-width: 768px) {
+    body {
+        background-image: url(back-ground-hamburguesas.png); /* Cambia la imagen de fondo para móviles */
+        background-size: cover;
+    }
+}
+h1 {
+    font-size: 40px;
+    margin: 0px;
+    color: white;
+    justify-content: right;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenedor {
+    display: flex; /* Utiliza Flexbox para colocar elementos en línea */
+    align-items: center; /* Alinea verticalmente en el centro */
+}
+.contenedor_palabra {
+    flex-direction: column;
+    margin-left: 8%;
+}
+.contenedor_palabra__texto__arriba {
+    color: white;
+    font-size: 200%;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.contenedor_palabra__texto__abajo {
+    color: goldenrod;
+    font-size: 200%;
+    font-family: 'Fredericka the Great', cursive;
+}
+/* Agregar estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .contenedor_palabra {
+        margin-left: 0; /* Cambiar el margen a cero en pantallas pequeñas */
+    }
+
+    .contenedor_palabra__texto__arriba,
+    .contenedor_palabra__texto__abajo {
+        font-size: 150%; /* Reducir el tamaño de fuente en pantallas pequeñas */
+    }
+}
+.contenedor img {
+    width: 20%; /* Ancho de la imagen (ajusta según lo necesites) */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    margin-right: 10px; /* Espacio entre la imagen y el texto (ajusta según lo necesites) */
+    margin:0px;
+    display: block;
+}
+.contenedor p {
+    margin: 0px; /* Elimina el margen predeterminado del párrafo */
+    display: block;
+}
+h2 {
+    font-size: 30px;
+    color: white;
+}
+.established {
+    font-style: italic;
+}
+h1, h2, p {
+    text-align: center;
+    color: white;
+}
+.menu {
+    width: 80%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 7%;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr {
+    height: 2px;
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+.bottom-line {
+    margin-top: 25px;
+}
+h1, h2 {
+    font-family: Impact, serif;
+}
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.hamburguesa, .sandwiches {
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+  /* FOOTER */
+footer {
+    font-size: 14px;
+}
+.item .descripcion{
+    font-size:12px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.item .hamburguesa{
+    margin-bottom: 0px;
+}
