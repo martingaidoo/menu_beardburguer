@@ -10,8 +10,10 @@ body {
 /* Personaliza el fondo para dispositivos móviles */
 @media (max-width: 768px) {
     body {
-        background-image: url(back-ground-hamburguesas.png); /* Cambia la imagen de fondo para móviles */
+        background-image: url(back-ground-hamburguesas-celu.png); /* Cambia la imagen de fondo para móviles */
         background-size: cover;
+        background-repeat: no-repeat; /* Evita la repetición del fondo */
+        background-attachment: fixed; 
     }
 }
 h1 {
